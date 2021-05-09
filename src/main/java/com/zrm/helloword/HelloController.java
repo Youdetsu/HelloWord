@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/jenkins")
     public String hello(){
+        System.out.println("fuck you");
         return "hello jenkins and springboot";
     }
 }
